@@ -63,7 +63,8 @@ nbclient
 nbconvert 
 nbformat 
 nest-asyncio 
-notebook numpydoc 
+notebook 
+numpydoc 
 packaging 
 pandocfilters 
 paramiko 
