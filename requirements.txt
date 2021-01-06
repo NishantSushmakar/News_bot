@@ -10,7 +10,7 @@ attrs
 autopep8 
 Babel 
 backcall==0.2.0
-bcrypt black==19.10b0
+bcrypt black
 bleach 
 brotlipy==0.7.0
 cachetools==4.2.0
