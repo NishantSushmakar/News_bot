@@ -71,7 +71,7 @@ def error(bot,update):
 bot =Bot(TOKEN)
 
 try:
-    bot.set_webhook("https://alkentra.herokuapp.com/"+TOKEN)
+    bot.set_webhook("https://intense-mesa-11528.herokuapp.com/"+TOKEN)
 except Exception as e:
     print(e)    
    
