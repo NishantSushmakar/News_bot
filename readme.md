@@ -13,4 +13,5 @@ This Bot provides you with all the news in the world . The topic includes **Top 
 * Flask microservice <br>
 * Heroku <br>
 * Google DialogFlow <br>
-* Google Cloud Services 
+* Google Cloud Services
+* Telegram API
