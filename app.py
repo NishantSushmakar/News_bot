@@ -81,7 +81,7 @@ dp.add_handler(MessageHandler(Filters.text,reply_text))
 dp.add_handler(MessageHandler(Filters.sticker,echo_sticker))
 dp.add_error_handler(error)
 
-# pytz
+# pypiwin32==227
 
 if __name__ == "__main__":
     
