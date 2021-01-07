@@ -67,14 +67,12 @@ def echo_sticker(update,context):
 def error(bot,update):
     
     logger.error("Update '%s' caused '%s'",update,update.error)
-
 bot =Bot(TOKEN)
+try :
+    bot.set_webhook("https://still-inlet-29776.herokuapp.com/"+TOKEN)
+except Exception as e:       
+    print(e)
 
-try:
-    bot.set_webhook("https://intense-mesa-11528.herokuapp.com/"+TOKEN)
-except Exception as e:
-    print(e)    
-   
 dp=Dispatcher(bot,None)
 dp.add_handler(CommandHandler('start',start))
 dp.add_handler(CommandHandler('help',_help))
@@ -83,7 +81,9 @@ dp.add_handler(MessageHandler(Filters.text,reply_text))
 dp.add_handler(MessageHandler(Filters.sticker,echo_sticker))
 dp.add_error_handler(error)
 
+
 if __name__ == "__main__":
+    
     app.run(port=8443)
 
     
