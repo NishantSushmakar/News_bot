@@ -98,8 +98,6 @@ python-jsonrpc-server
 python-language-server 
 python-telegram-bot==13.1
 pytz 
-pypiwin32
-pywin32-ctypes 
 pywinpty==0.5.7
 PyYAML==5.3.1
 pyzmq==20.0.0
