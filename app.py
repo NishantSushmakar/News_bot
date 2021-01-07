@@ -69,7 +69,7 @@ def error(bot,update):
     logger.error("Update '%s' caused '%s'",update,update.error)
 bot =Bot(TOKEN)
 try :
-    bot.set_webhook("https://still-inlet-29776.herokuapp.com/"+TOKEN)
+    bot.set_webhook("https://guarded-reef-30151.herokuapp.com/"+TOKEN)
 except Exception as e:       
     print(e)
 
