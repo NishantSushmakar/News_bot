@@ -111,7 +111,7 @@ regex
 requests 
 rope 
 rsa==4.6
-Rtree==0.8.9
+Rtree==0.8.3
 Send2Trash 
 sgmllib3k==1.0.0
 six 
